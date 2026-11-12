@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>袋记 Swipr 隐私政策 · Privacy Policy</title>
+<meta name="description" content="袋记（Swipr）不收集你的任何数据。Swipr collects no data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="top">
+  <a class="brand" href="./"><span class="mark">袋</span>袋记 Swipr</a>
+  <nav class="lang"><a href="?lang=zh" data-lang="zh-Hans">中文</a><a href="?lang=en" data-lang="en">English</a></nav>
+</header>
+
+<article lang="zh-Hans">
+  <h1>隐私政策</h1>
+  <p class="meta">生效日期：2026 年 11 月 6 日 · 适用于 iPhone 版袋记（Swipr）1.0 及以后版本</p>
+
+  <div class="summary">
+    <p class="lead"><strong>一句话：开发者不收集你的任何数据。</strong></p>
+    <p>袋记不需要注册账号，没有开发者服务器，没有广告、第三方统计或追踪。你的账单只保存在你的 iPhone 上，只有在你自己设置备份时，才会加密后存到你选择的位置。</p>
+  </div>
+
+  <h2>1. 保存在你 iPhone 上的数据</h2>
+  <p>为了记账，袋记会在本机保存以下内容：</p>
+  <ul>
+    <li>交易记录：金额、日期、商户、分类、备注、收支类型等；</li>
+    <li>你导入的截图、CSV 和 PDF 账单，以及识别出的文字。确认入账后，原始截图默认会被清理；只有你开启「保留原始截图」后才会长期保存，你可以随时删除；</li>
+    <li>分类、商户规则和应用设置。</li>
+  </ul>
+  <p>截图和账单的识别全部在本机完成，使用 Apple 的 Vision 文字识别和随 App 安装的一个小型识别模型。<strong>袋记不会把任何图片、文字或账单内容发送给开发者或其他任何人。</strong>识别模型用合成数据训练，你的截图不会被用来训练模型。</p>
+  <p>本机数据库使用 iOS 的数据保护（Data Protection）存储，恢复密钥和 WebDAV 密码保存在系统钥匙串（Keychain）中。</p>
+
+  <h2>2. 袋记会访问什么</h2>
+  <ul>
+    <li><strong>照片：</strong>通过系统的照片选择器导入，袋记只能拿到你选中的图片，看不到你的相册。</li>
+    <li><strong>分享和文件：</strong>只处理你从其他 App 分享过来、或在「文件」里选中的截图、CSV 和 PDF。</li>
+    <li><strong>快捷指令：</strong>你运行截图快捷指令时，指令把当时的屏幕截图交给袋记，在本机识别。</li>
+    <li><strong>面容 ID / 触控 ID：</strong>仅用于你开启的应用锁。验证由 iOS 完成，袋记拿不到你的面部或指纹信息。</li>
+    <li><strong>小组件和实时活动：</strong>会在主屏幕或锁定屏幕上显示识别结果和统计金额。你可以在系统设置中关闭它们。</li>
+  </ul>
+  <p>袋记不使用定位、通讯录、麦克风或相机，不申请通知权限，也不访问你的广告标识符。</p>
+
+  <h2>3. 袋记什么时候联网</h2>
+  <p>记账和识别都不需要网络。袋记只会在以下由你主动发起的情况下联网：</p>
+  <ul>
+    <li><strong>WebDAV 备份：</strong>你填写自己的 WebDAV 服务器地址后，备份会先在本机用 AES-256-GCM 加密，再通过 HTTPS 上传到这台服务器。只有你的恢复密钥能解开备份，开发者无法访问你的服务器，也无法解开备份。</li>
+    <li><strong>购买袋记 Pro：</strong>付款、退款和恢复购买都由 Apple 的 App Store 处理。袋记只从 App Store 获知你是否已解锁 Pro，拿不到你的付款信息。</li>
+    <li><strong>从云盘打开文件：</strong>如果你在「文件」里选择 iCloud 云盘或其他云盘中的文件，下载由该云盘服务完成，适用它们自己的隐私政策。</li>
+  </ul>
+
+  <h2>4. 备份</h2>
+  <ul>
+    <li><strong>袋记自己的备份</strong>（存到本机或 WebDAV）都经过加密，只能用你的恢复密钥恢复。请自己妥善保存恢复密钥：开发者没有副本，丢失后无法找回。</li>
+    <li><strong>系统备份：</strong>如果你开启了 iPhone 的 iCloud 备份，或用电脑备份 iPhone，iOS 会把袋记的账本作为 App 数据一起备份。这一过程由 Apple 完成，不经过开发者。临时文件和缓存不会进入系统备份。</li>
+  </ul>
+
+  <h2>5. 崩溃报告</h2>
+  <p>袋记不写运行日志，也没有集成任何崩溃收集 SDK。如果你在 iPhone「设置 › 隐私与安全性 › 分析与改进」中选择了「与 App 开发者共享」，Apple 可能会把 App 崩溃时的技术报告（不包含你的账单内容）提供给开发者，仅用于修复问题。你可以随时关闭这项共享。</p>
+
+  <h2>6. 删除你的数据</h2>
+  <ul>
+    <li>在袋记的「设置 › 清空全部本地数据」中可以删除本机的全部记录；删除 App 也会清除本机数据。</li>
+    <li>你导出或备份到其他位置的文件（包括 WebDAV 服务器上的备份）由你自己管理，需要你在那里删除。</li>
+  </ul>
+
+  <h2>7. 儿童</h2>
+  <p>袋记不面向 13 岁以下儿童，也不会有意获取任何人的个人信息。</p>
+
+  <h2>8. 本政策的变更</h2>
+  <p>如果袋记处理数据的方式发生变化，我们会先更新本页面和生效日期，重大变化还会在 App 更新说明中写明。</p>
+
+  <h2>9. 联系我们</h2>
+  <p>对本政策有任何疑问，请发邮件至 <a href="mailto:ruezacct@gmail.com">ruezacct@gmail.com</a>。</p>
+</article>
+
+<article lang="en">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective November 6, 2026 · Applies to Swipr (袋记) for iPhone, version 1.0 and later</p>
+
+  <div class="summary">
+    <p class="lead"><strong>In short: the developer collects no data from you.</strong></p>
+    <p>Swipr needs no account and has no developer server, ads, third-party analytics or tracking. Your records stay on your iPhone. They leave it only when you set up a backup yourself, and then they are encrypted first and stored where you choose.</p>
+  </div>
+
+  <h2>1. Data kept on your iPhone</h2>
+  <p>To keep your ledger, Swipr stores on the device:</p>
+  <ul>
+    <li>Transactions: amount, date, merchant, category, note, type and similar fields.</li>
+    <li>Screenshots, CSV and PDF statements you import, and the text recognized in them. Screenshots are removed once their records are filed, unless you turn on “Keep original screenshots”; you can delete kept originals at any time.</li>
+    <li>Categories, merchant rules and app settings.</li>
+  </ul>
+  <p>Recognition happens entirely on the device, using Apple's Vision text recognition and a small model that ships inside the app. <strong>Swipr never sends your images, text or records to the developer or anyone else.</strong> The model is trained on synthetic data; your screenshots are never used to train it.</p>
+  <p>The ledger is stored with iOS Data Protection. Your recovery key and WebDAV password are stored in the system Keychain.</p>
+
+  <h2>2. What Swipr accesses</h2>
+  <ul>
+    <li><strong>Photos:</strong> imports go through the system photo picker, so Swipr only receives the images you pick and cannot see your library.</li>
+    <li><strong>Sharing and Files:</strong> Swipr only reads the screenshots, CSV and PDF files you share with it or pick in Files.</li>
+    <li><strong>Shortcuts:</strong> when you run the capture shortcut, it hands the current screenshot to Swipr, which reads it on the device.</li>
+    <li><strong>Face ID / Touch ID:</strong> used only for the app lock you turn on. iOS performs the check; Swipr never receives face or fingerprint data.</li>
+    <li><strong>Widgets and Live Activities:</strong> show recognized results and totals on your Home Screen or Lock Screen. You can turn them off in Settings.</li>
+  </ul>
+  <p>Swipr does not use location, contacts, the microphone or the camera, does not ask for notification permission, and does not access your advertising identifier.</p>
+
+  <h2>3. When Swipr goes online</h2>
+  <p>Recording and recognition work offline. Swipr connects to the network only when you start one of these:</p>
+  <ul>
+    <li><strong>WebDAV backup:</strong> after you enter your own WebDAV server, each backup is encrypted on the device with AES-256-GCM and uploaded to that server over HTTPS. Only your recovery key can open it; the developer has no access to your server and cannot decrypt your backups.</li>
+    <li><strong>Buying Swipr Pro:</strong> payment, refunds and restoring purchases are handled by Apple's App Store. Swipr only learns from the App Store whether Pro is unlocked, never your payment details.</li>
+    <li><strong>Opening files from cloud storage:</strong> if you pick a file stored in iCloud Drive or another provider in Files, that provider downloads it under its own privacy policy.</li>
+  </ul>
+
+  <h2>4. Backups</h2>
+  <ul>
+    <li><strong>Swipr's own backups</strong> (on the device or on WebDAV) are encrypted and can only be restored with your recovery key. Keep it safe: the developer has no copy and cannot recover it for you.</li>
+    <li><strong>System backups:</strong> if you back up your iPhone to iCloud or a computer, iOS includes Swipr's ledger with the app's data. Apple performs that backup; it does not pass through the developer. Temporary files and caches are left out of system backups.</li>
+  </ul>
+
+  <h2>5. Crash reports</h2>
+  <p>Swipr writes no logs and contains no crash-reporting SDK. If you chose “Share with App Developers” under Settings › Privacy &amp; Security › Analytics &amp; Improvements, Apple may share technical crash reports with the developer, which do not contain your records, to help fix problems. You can turn this off at any time.</p>
+
+  <h2>6. Deleting your data</h2>
+  <ul>
+    <li>Settings › Erase all local data in Swipr removes every record on the device; deleting the app removes them too.</li>
+    <li>Files you exported or backed up elsewhere, including backups on your WebDAV server, are yours to manage and delete there.</li>
+  </ul>
+
+  <h2>7. Children</h2>
+  <p>Swipr is not directed at children under 13 and does not knowingly obtain personal information from anyone.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If the way Swipr handles data changes, this page and its effective date will be updated first, and significant changes will be noted in the app's release notes.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:ruezacct@gmail.com">ruezacct@gmail.com</a>.</p>
+</article>
+
+<footer><a href="./">袋记 Swipr</a> · <a href="privacy.html">隐私政策 Privacy</a></footer>
+</main>
+<script src="lang.js"></script>
+</body>
+</html>
