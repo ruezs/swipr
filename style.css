@@ -6,7 +6,6 @@
   --line: #e4e1d6;
   --accent: #2f6b00;
   --lime: #9fe870;
-  --on-lime: #0f2400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -65,12 +64,7 @@ header.top {
 .brand .mark {
   width: 28px;
   height: 28px;
-  border-radius: 8px;
-  background: var(--lime);
-  color: var(--on-lime);
-  display: grid;
-  place-items: center;
-  font-size: 15px;
+  display: block;
 }
 
 nav.lang a {
